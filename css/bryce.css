@@ -45,31 +45,6 @@ main{
     text-align: center;
 }
 
-/* Card css for the overview pages */
-.card img{
-    width: 100%;
-}
-
-.card{
-    display: inline-block;
-    max-width: 30%;
-    margin: 2%;
-    padding: 0%;
-    text-align: center;
-    border: 1px solid black;
-}
-
-.card button{
-    border: none;
-    display: inline-block;
-    padding: 5%;
-    color: #E9ECEF;
-    background-color: #343A40;
-    text-align: center;
-    width: 100%;
-    font-size: 18px;
-}
-
 /* Footer css */
 footer{
     background-color:  #495057;
@@ -94,13 +69,13 @@ footer li{
     text-align: center;
 }
 
-.social{
-    width: 40%;
-}
-
 footer a{
     color: #E9ECEF;
 }
 
+img{
+    width: 25%;
+    display: block;
+}
 
 
