@@ -11,10 +11,13 @@
 					<source src ="video/video.mp4" type="video/mp4">
 					No support
 				</video>
+
 			</div>	
+			<a><button type="button" ><img  id = "SocButton" onmouseover="makeBig(this)" onmouseout="makeSmall(this)" src="images/f_logo_RGB-Blue_1024.png" alt="Facebook Logo" style="float: left; height: 9vh; position: absolute; padding-top: 5vh; padding-left: 0.75vw;" ></button></a>
+            <a id = "SocButton" onmouseover="makeBig(this)" href="https://twitter.com/home?lang=en"><button type="button"><img class="social" src="images/Twitter_Logo_Blue.png" alt="Twitter Logo" style="height: 10vh; position: absolute; padding-top: 20vh; padding-left: 0;"></button></a>
+			
 			<div class ="Diagonal Bottom">
 			<ul>
-				<h1 id="companyname">Techtastic!</h1>
 				<li>
 					<a href="operatingsystemoverview.html"><h2>Operating Systems</h2></a>
 				</li>
@@ -30,5 +33,20 @@
 			</ul>
 			</div>
 		</div>
+		
+		
+		<script>
+		
+function makeBig(x) {
+  document.getElementById("SocButton").style.height = "100px";
+  x.style.width = "12px";
+}
+
+function makeSmall(x) {
+  document.getElementById("SocButton").style.height = "19px";
+  x.style.width = "9px";
+}
+</script>
+
 	</body>
 </html>
