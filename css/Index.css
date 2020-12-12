@@ -46,3 +46,12 @@ html, body {
 	background-color: #c31432;
 	transform: skewX(-2deg);
 }
+
+#companyname{
+	position: absolute;
+	transform: skewX(63deg);
+	/* bottom: 30px; */
+	padding-top: 20vh;
+	left: 7vw;
+
+}

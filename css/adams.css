@@ -46,10 +46,6 @@ main{
 }
 
 /* Card css for the overview pages */
-.card img{
-    width: 100%;
-}
-
 .card{
     display: inline-block;
     max-width: 30%;
@@ -76,7 +72,6 @@ footer{
     color: #E9ECEF;
     padding: 0%;
     align-content: center;
-	height: 4vh;
 }
 
 footer ul{
@@ -95,10 +90,6 @@ footer li{
     text-align: center;
 }
 
-footer p{
-	display: inline;
-}
-
 .social{
     width: 40%;
 }
@@ -107,5 +98,22 @@ footer a{
     color: #E9ECEF;
 }
 
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    padding-left: 1%;
+    padding-right: 1%;
+    clear: both;
+  }
 
-
+  @media screen and (max-width: 1300px) {
+    .column {
+      width: 100%;
+    }
+  }
