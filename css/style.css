@@ -76,9 +76,8 @@ footer{
     color: #E9ECEF;
     padding: 0%;
     align-content: center;
-	height: 4vh;
-}
-
+	/* height: 4vh; */
+} 
 footer ul{
     list-style-type: none;
     margin: 0;
@@ -106,6 +105,3 @@ footer p{
 footer a{
     color: #E9ECEF;
 }
-
-
-

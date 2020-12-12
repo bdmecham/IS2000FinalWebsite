@@ -42,7 +42,32 @@ nav li a:hover{
 
 main{
     margin: 1%;
+    text-align: left;
+}
+
+/* Card css for the overview pages */
+.card img{
+    width: 100%;
+}
+
+.card{
+    display: inline-block;
+    max-width: 30%;
+    margin: 2%;
+    padding: 0%;
     text-align: center;
+    border: 1px solid black;
+}
+
+.card button{
+    border: none;
+    display: inline-block;
+    padding: 5%;
+    color: #E9ECEF;
+    background-color: #343A40;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
 }
 
 /* Footer css */
@@ -51,8 +76,10 @@ footer{
     color: #E9ECEF;
     padding: 0%;
     align-content: center;
-}
-
+    position: fixed;
+    bottom: 0;
+	/* height: 4vh; */
+} 
 footer ul{
     list-style-type: none;
     margin: 0;
@@ -69,6 +96,14 @@ footer li{
     text-align: center;
 }
 
+footer p{
+	display: inline;
+}
+
+.social{
+    width: 40%;
+}
+
 footer a{
     color: #E9ECEF;
 }
@@ -76,6 +111,6 @@ footer a{
 img{
     width: 25%;
     display: block;
+    float: right;
 }
-
 
