@@ -2,6 +2,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	text-decoration: none;
 }
 html, body {
     height: 100%;
@@ -25,29 +26,23 @@ html, body {
 }
 .Bottom{
 	transform: skewX(-63deg);
-	margin-left: 1350px;
-	padding-top: 650px;
-	background-color: black;
+	margin-left: 72vw;
+	padding-top: 70vh;
+	background: linear-gradient(to bottom, #c31432,#240b36);
 }
 
-.Red{
-	background-color: red;
-}
-.Blue{
-	background-color: blue;
-}
-.Bottom h1{
-	margin-left: 0;
-	padding-top: 600px;
-	text-align: left;
-	transform: skewX(63deg);
-	color: white;
-}
 .Bottom h2{
-
-
-	padding-bottom: 50px;
-	padding-left: 70px;
+	text-decoration: none;
+	padding-bottom: 5vh;
+	padding-left: 5vw;
+	font-size: 1.5vw;
 	transform: skewX(63deg);
 	color: white;
+}
+.Bottom ul li{
+	list-style-type: none;
+}
+.Bottom ul li:hover{
+	background-color: #c31432;
+	transform: skewX(-2deg);
 }
