@@ -27,8 +27,8 @@ html, body {
 }
 .Bottom{
 	transform: skewX(-63deg);
-	margin-left: 72vw;
-	padding-top: 70vh;
+	margin-left: 71vw;
+	padding-top: 68vh;
 	background: linear-gradient(to bottom, #c31432,#240b36);
 }
 
