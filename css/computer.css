@@ -117,4 +117,8 @@ a{
     text-decoration: none;
 }
 
+tr:nth-child(odd) {
+    background-color: #343A40;
+    color: white;
+  }
 
