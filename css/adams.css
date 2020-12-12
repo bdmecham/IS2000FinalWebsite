@@ -1,0 +1,119 @@
+/* Colors I've been using-
+for darker elements like hover:  #343A40
+for normal greys: #495057
+for background/text color against greys: #E9ECEF
+*/
+
+/* General Background color */
+body{
+    background-color: #E9ECEF;
+    
+}
+
+/* Header css */
+header{
+    text-align: center;
+}
+
+/* Navigation css */
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#495057;
+}
+
+nav li{
+    float: left;
+}
+
+nav li a{
+    display: block;
+    color: #E9ECEF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: #343A40;
+}
+
+main{
+    margin: 1%;
+    text-align: center;
+}
+
+/* Card css for the overview pages */
+.card{
+    display: inline-block;
+    max-width: 30%;
+    margin: 2%;
+    padding: 0%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.card button{
+    border: none;
+    display: inline-block;
+    padding: 5%;
+    color: #E9ECEF;
+    background-color: #343A40;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+
+/* Footer css */
+footer{
+    background-color:  #495057;
+    color: #E9ECEF;
+    padding: 0%;
+    align-content: center;
+}
+
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer li{
+    width: 10%;
+    /* float: left; */
+    display:inline-block;
+    margin: .5%, 1%, 1%, .5%;
+    padding: .5%;
+    text-align: center;
+}
+
+.social{
+    width: 40%;
+}
+
+footer a{
+    color: #E9ECEF;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    padding-left: 1%;
+    padding-right: 1%;
+    clear: both;
+  }
+
+  @media screen and (max-width: 1300px) {
+    .column {
+      width: 100%;
+    }
+  }
